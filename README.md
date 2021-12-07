@@ -3,6 +3,9 @@
 [![Build Status](https://travis-ci.org/AltSysrq/rusty-fork.svg?branch=master)](https://travis-ci.org/AltSysrq/rusty-fork)
 [![](http://meritbadge.herokuapp.com/rusty-fork)](https://crates.io/crates/rusty-fork)
 
+⚠️ This is a fork of [rusty-fork](https://github.com/AltSysrq/rusty-fork) made solely to get [this pull request](https://github.com/AltSysrq/rusty-fork/pull/15)
+available on crates.io. It will be deleted if the PR ever get merged. 
+
 Rusty-fork provides a way to "fork" unit tests into separate processes.
 
 There are a number of reasons to want to run some tests in isolated
@@ -45,7 +48,7 @@ Then, you can simply wrap any test(s) to be isolated with the
 [`rusty_fork_test!`](macro.rusty_fork_test.html) macro.
 
 ```rust
-use rusty_fork::rusty_fork_test;
+use rusty_forkfork::rusty_fork_test;
 
 rusty_fork_test! {
     #[test]
